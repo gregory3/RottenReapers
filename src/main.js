@@ -186,6 +186,7 @@ const loadLayerImg = async (_layer) => {
   });
 };
 
+
 const addText = (_sig, x, y, size) => {
   ctx.fillStyle = text.color;
   ctx.font = `${text.weight} ${size}pt ${text.family}`;
